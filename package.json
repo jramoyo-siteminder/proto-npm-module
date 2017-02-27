@@ -1,0 +1,25 @@
+{
+  "name": "proto-npm-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/model_pb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "mkdir -p dist; protoc --js_out=import_style=commonjs,binary:dist -I src src/*",
+    "clean": "rm -r dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jramoyo-siteminder/proto-npm-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jramoyo-siteminder/proto-npm-module/issues"
+  },
+  "homepage": "https://github.com/jramoyo-siteminder/proto-npm-module#readme",
+  "dependencies": {
+    "google-protobuf": "^3.2.0"
+  },
+  "devDependencies": {}
+}
