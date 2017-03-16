@@ -1,6 +1,6 @@
 {
   "name": "proto-npm-module",
-  "version": "1.0.0",
+  "version": "git+ssh://git@github.com/jramoyo-siteminder/proto-npm-module.git#1.0.1",
   "description": "",
   "main": "dist/model_pb.js",
   "scripts": {
